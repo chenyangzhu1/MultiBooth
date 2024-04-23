@@ -3,7 +3,7 @@
 
 [Chenyang Zhu](https://chenyangzhu1.github.io/), [Kai Li](https://kailigo.github.io/), [Yue Ma](https://mayuelala.github.io/), [Chunming He](https://chunminghe.github.io/) and [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=zh-CN&oi=sra)
 
-<a href='https://arxiv.org/abs/TODO'><img src='https://img.shields.io/badge/ArXiv-TODO-red'></a>
+<a href='https://arxiv.org/abs/2404.14239'><img src='https://img.shields.io/badge/ArXiv-2404.14239-red'></a>
 <a href='https://multibooth.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 
 </div>
@@ -22,9 +22,16 @@ Our MultiBooth is based on pre-trained [Stable Diffusion v1.5](https://huggingfa
 The overall pipeline of MultiBooth can be devided into two phase: (a) During the single-concept learning phase, a multi-modal encoder and LoRA parameters are trained to encode every single concept. (b) During the multi-concept integration phase, the customized embeddings S* and V* are converted into text embeddings, which are then combined with the corresponding LoRA parameters to form single-concept modules. These single-concept modules, along with the bounding boxes, are intended to serve as input for the regional customization module.
 
 ## 🔥 News
-- TODO
+- 2024.4.23 Release [paper](https://arxiv.org/abs/2404.14239) and [project page](https://multibooth.github.io/)!
 
 ## 💡 Citation
 ```bibtex
-TODO
+@misc{zhu2024multibooth,
+      title={MultiBooth: Towards Generating All Your Concepts in an Image from Text}, 
+      author={Chenyang Zhu and Kai Li and Yue Ma and Chunming He and Li Xiu},
+      year={2024},
+      eprint={2404.14239},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ``` 
