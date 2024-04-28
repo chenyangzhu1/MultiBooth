@@ -19,7 +19,7 @@ Our MultiBooth is based on pre-trained [Stable Diffusion v1.5](https://huggingfa
 ## 🔍 Method
 ![method](img/Framework.png "method")
 
-The overall pipeline of MultiBooth can be devided into two phase: (a) During the single-concept learning phase, a multi-modal encoder and LoRA parameters are trained to encode every single concept. (b) During the multi-concept integration phase, the customized embeddings S* and V* are converted into text embeddings, which are then combined with the corresponding LoRA parameters to form single-concept modules. These single-concept modules, along with the bounding boxes, are intended to serve as input for the regional customization module.
+The overall pipeline of MultiBooth can be divided into two phase: (a) During the single-concept learning phase, a multi-modal encoder and LoRA parameters are trained to encode every single concept. (b) During the multi-concept integration phase, the customized embeddings S* and V* are converted into text embeddings, which are then combined with the corresponding LoRA parameters to form single-concept modules. These single-concept modules, along with the bounding boxes, are intended to serve as input for the regional customization module.
 
 ## 🔥 News
 - 2024.4.23 Release [paper](https://arxiv.org/abs/2404.14239) and [project page](https://multibooth.github.io/)!
